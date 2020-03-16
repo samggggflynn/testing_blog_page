@@ -1,0 +1,48 @@
+encoding: UTF-8
+
+permalink: /:year/:month/:day/:title.html
+paginate: 5
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+highlighter: rouge
+
+
+# 作者信息
+author: 
+  name: XC L
+  email: xxx@hotmail.com
+  link: http://www.xxx.com/
+  weibo: http://weibo.com/u/xxx
+  github: https://github.com/xxx
+  github_username:  xxxx
+  weibo_username:  xxxx
+
+# 站点信息
+title : XC's blog
+description: 
+  个人介绍
+url: http://www.samgggg.tk/
+rss_url: /feed.xml
+
+# gavatar头像及Favicon
+gavatar : /assets/img/logo.jpg
+favicon : /assets/img/logo.png
+
+# disqus 设置
+#disqus:
+#  shortname: blademastercoder
+
+#profile 个人信息
+
+profile_desc : 坚持学术与身体一起磨练 <br /> 当时不杂<br> #QQ交流群：701451028<br>
+
+# 首页除了最新文章外显示分类
+cates: 
+- Essay
+
+# 中文本地化
+locals: 
+   newest : 最新文章
